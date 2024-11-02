@@ -14,35 +14,35 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 
 export default async function Page({ params }) {
-
-    const filepath = `content/${params.slug}.md`
+    // Fixed template string syntax
+    const filepath = `content/article/${params.slug}.md`
     
     if(!fs.existsSync(filepath)){ 
         notFound() 
         return 
     } 
 
+    // Fixed filepath reference
     const fileContent = fs.readFileSync(filepath, "utf-8")
     const {content, data} = matter(fileContent)
 
     const processor = unified()
-    .use(remarkParse)
-    .use(remarkRehype)
-    .use(rehypeDocument, {title: '👋🌍'})
-    .use(rehypeFormat)
-    .use(rehypeStringify) 
-    .use(rehypeSlug)
-    .use(rehypeAutolinkHeadings)
-    .use(rehypePrettyCode, {
-        theme: "github-dark",
-        transformers: [
-            transformerCopyButton({
-              visibility: 'always',
-              feedbackDuration: 3_000,
-            }),
-          ],
-
-      });
+        .use(remarkParse)
+        .use(remarkRehype)
+        .use(rehypeDocument, {title: '👋🌍'})
+        .use(rehypeFormat)
+        .use(rehypeStringify) 
+        .use(rehypeSlug)
+        .use(rehypeAutolinkHeadings)
+        .use(rehypePrettyCode, {
+            theme: "github-dark",
+            transformers: [
+                transformerCopyButton({
+                    visibility: 'always',
+                    feedbackDuration: 3_000,
+                }),
+            ],
+        });
 
     const htmlContent = (await processor.process(content)).toString();
 

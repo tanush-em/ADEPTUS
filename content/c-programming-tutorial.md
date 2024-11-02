@@ -13,7 +13,7 @@ Welcome to this comprehensive C programming tutorial! Whether you're a complete 
 
 C is a powerful general-purpose programming language that is widely used in system programming, embedded systems, and applications requiring high performance. It is known for its efficiency, close-to-hardware control, and portability, making it a crucial language in the software industry.
 
-### Why Learn C?
+## Why Learn C?
 
 - **Foundation for Other Languages**: C provides the building blocks for many modern languages, such as C++, Java, and Python.
 - **Performance**: C is highly efficient and is used in performance-critical applications.
@@ -50,7 +50,7 @@ int main() {
 }
 ```
 
-### Control Structures
+## Control Structures
 
 ```c
 #include <stdio.h>
@@ -72,7 +72,7 @@ int main() {
 }
 ```
 
-### Functions
+## Functions
 
 ```c
 #include <stdio.h>
@@ -95,7 +95,7 @@ Once you are familiar with the basics, it's time to explore more advanced featur
 - **File I/O**: Understand how to read from and write to files.
 - **Dynamic Memory Allocation**: Explore memory management using `malloc`, `calloc`, and `free`.
 
-### Arrays and Pointers
+## Arrays and Pointers
 
 ```c
 #include <stdio.h>
@@ -112,7 +112,7 @@ int main() {
 }
 ```
 
-### File I/O
+## File I/O
 
 ```c
 #include <stdio.h>
@@ -131,7 +131,7 @@ int main() {
 }
 ```
 
-### Dynamic Memory Allocation
+## Dynamic Memory Allocation
 
 ```c
 #include <stdio.h>
@@ -162,7 +162,7 @@ Now that you are comfortable with intermediate topics, let’s move on to some a
 - **Pointers to Functions**: Explore how to use pointers with functions for flexibility.
 - **Memory Management**: Delve deeper into memory management and optimization.
 
-### Structures
+## Structures
 
 ```c
 #include <stdio.h>
@@ -181,7 +181,7 @@ int main() {
 }
 ```
 
-### Pointers to Functions
+## Pointers to Functions
 
 ```c
 #include <stdio.h>
@@ -198,7 +198,7 @@ int main() {
 }
 ```
 
-### Memory Management
+## Memory Management
 
 ```c
 #include <stdio.h>

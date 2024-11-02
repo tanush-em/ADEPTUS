@@ -1,27 +1,19 @@
-import fs from "fs"
-import matter from "gray-matter"
-import { notFound } from "next/navigation"
-import rehypeDocument from 'rehype-document'
-import rehypeFormat from 'rehype-format'
-import rehypeStringify from 'rehype-stringify'
-import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
-import {unified} from 'unified'
+import fs from "fs";
+import matter from "gray-matter";
+import { notFound } from "next/navigation";
+import rehypeDocument from 'rehype-document';
+import rehypeFormat from 'rehype-format';
+import rehypeStringify from 'rehype-stringify';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import {unified} from 'unified';
 import rehypePrettyCode from "rehype-pretty-code";
-import { transformerCopyButton } from '@rehype-pretty/transformers'
-import OnThisPage from "@/components/onthispage"
-import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import rehypeSlug from 'rehype-slug'
+import { transformerCopyButton } from '@rehype-pretty/transformers';
+import OnThisPage from "@/components/onthispage";
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
 
 export default async function Page({ params }) {
-
-    // const blog = {
-    //     title: "Typescript tutorial in hindi",
-    //     author: "John Doe",
-    //     description: "This is a sample blog post description.",
-    //     date: "2024-09-02",
-    //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
-    // };
 
     const filepath = `content/${params.slug}.md`
     
@@ -50,10 +42,9 @@ export default async function Page({ params }) {
             }),
           ],
 
-      })
+      });
 
-    const htmlContent = (await processor.process(content)).toString()
-
+    const htmlContent = (await processor.process(content)).toString();
 
     return (
         <div className="max-w-6xl mx-auto p-4">

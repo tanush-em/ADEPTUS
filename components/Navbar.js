@@ -67,7 +67,7 @@ const Navbar = () => {
                     <Link href="/about" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         About
                     </Link>
-                    <Link href="/blog" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/article" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         Articles
                     </Link>
                     <Link href="/event" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
@@ -96,7 +96,7 @@ const Navbar = () => {
                                 <SheetTitle className="font-bold my-4 flex items-center gap-2">
                                     <Image 
                                         src="/logo.png" 
-                                        alt="Adeptus Logo" 
+                                        alt="Logo" 
                                         width={30} 
                                         height={30}
                                     />
@@ -109,7 +109,7 @@ const Navbar = () => {
                                         <Link href="/about">
                                             About
                                         </Link>
-                                        <Link href="/blog">
+                                        <Link href="/article">
                                             Articles
                                         </Link>
                                         <Link href="/event">

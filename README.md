@@ -36,3 +36,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 - Search in articles
 - Categorical segregation in articles
 - Roadmaps / Learning Guides
+- Redesign navbar
+- 

@@ -7,11 +7,11 @@ import { Badge } from "@/components/ui/badge";
 
 export default async function EventsPage() {
 
-    const eventFiles = fs.readdirSync("content/event");
+    const eventFiles = fs.readdirSync("app/content/event");
     const events = eventFiles
         .filter(file => file.endsWith(".md"))
         .map(file => {
-            const content = fs.readFileSync(`content/event/${file}`, "utf-8");
+            const content = fs.readFileSync(`app/content/event/${file}`, "utf-8");
             const { data } = matter(content);
             return {
                 ...data,

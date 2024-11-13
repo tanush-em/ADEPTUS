@@ -8,7 +8,7 @@ import rehypeStringify from 'rehype-stringify';
 import { Badge } from "@/components/ui/badge";
 
 export default async function EventPage({ params }) {
-    const filepath = `content/event/${params.slug}.md`;
+    const filepath = `app/content/event/${params.slug}.md`;
     
     if (!fs.existsSync(filepath)) {
         notFound();

@@ -5,10 +5,10 @@ import fs from "fs";
 import matter from 'gray-matter';
 
 
-const dirContent = fs.readdirSync("content/article", "utf-8");
+const dirContent = fs.readdirSync("app/content/article", "utf-8");
 
 const blogs = dirContent.map(file=>{
-    const fileContent = fs.readFileSync(`content/article/${file}`, "utf-8")
+    const fileContent = fs.readFileSync(`app/content/article/${file}`, "utf-8")
     const {data} = matter(fileContent)
     return data
 });

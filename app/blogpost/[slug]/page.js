@@ -15,7 +15,7 @@ import rehypeSlug from 'rehype-slug';
 
 export default async function Page({ params }) {
     // Fixed template string syntax
-    const filepath = `content/article/${params.slug}.md`
+    const filepath = `app/content/article/${params.slug}.md`
     
     if(!fs.existsSync(filepath)){ 
         notFound() 

@@ -18,4 +18,8 @@
 - [ ] Add article and event links in Home page
 - [ ] Light mode issues (logo, cards, badges)
 - [ ] Events card to be made discoverable with info inside (include remark-rehype)
+- [ ] Create scheme for blog
+- [ ] Create scheme for event
+- [ ] Create Contributers list in "team" page
+- [ ] Create readme.md
 

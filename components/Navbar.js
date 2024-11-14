@@ -73,18 +73,21 @@ const Navbar = () => {
                     <Link href="/event" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         Events
                     </Link>
+                    <Link href="/team" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                        Our Team
+                    </Link>
                     <Link href="/contact" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         Contact
                     </Link>
-                    <div className='flex items-center'>
+                    {/* <div className='flex items-center'>
                         <ModeToggle />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="md:hidden">
-                        <span className="mx-2"> 
+                        {/*<span className="mx-2"> 
                             <ModeToggle />
-                        </span>
+                        </span>*/}
                     <Sheet>
                         <SheetTrigger>
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -114,6 +117,9 @@ const Navbar = () => {
                                         </Link>
                                         <Link href="/event">
                                             Events
+                                        </Link>
+                                        <Link href="/team">
+                                            Our Team
                                         </Link>
                                         <Link href="/contact">
                                             Contact

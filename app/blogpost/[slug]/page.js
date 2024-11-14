@@ -79,7 +79,7 @@ export default async function Page({ params }) {
       ],
     });
 
-  const htmlContent = (await processor.process(content)).toString();
+  const htmlContent = (await processor.process(content)).toStri ng();
 
   return (
     <div className="max-w-6xl mx-auto p-4">

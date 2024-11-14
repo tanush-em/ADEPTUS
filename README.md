@@ -22,3 +22,4 @@
 - [ ] Create scheme for event
 - [X] Create Contributers list in "team" page
 - [ ] Create readme.md
+

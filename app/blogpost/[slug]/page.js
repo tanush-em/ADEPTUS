@@ -6,7 +6,7 @@ import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
-import {unified} from 'unified';
+import { unified } from 'unified';
 import rehypePrettyCode from "rehype-pretty-code";
 import { transformerCopyButton } from '@rehype-pretty/transformers';
 import OnThisPage from "@/components/onthispage";
@@ -86,6 +86,23 @@ export default async function Page({ params }) {
     <div className="max-w-6xl mx-auto p-4">
       <h1 className="text-4xl font-bold mb-4">{data.title}</h1>
       <p className="text-base mb-2 border-l-4 border-gray-500 pl-4 italic">&quot;{data.description}&quot;</p>
+
+      {/* Tags section */}
+      {data.tags && data.tags.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-4">
+          {data.tags.map((tag, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 text-sm rounded-full bg-gray-100 dark:bg-gray-800 
+                       text-gray-700 dark:text-gray-300 hover:bg-gray-200 
+                       dark:hover:bg-gray-700 transition-colors duration-200"
+            >
+              #{tag}
+            </span>
+          ))}
+        </div>
+      )}
+
       <div className="flex gap-2">
         <p className="text-sm text-gray-500 mb-4 italic">By {data.author}</p>
         <p className="text-sm text-gray-500 mb-4">{data.date}</p>

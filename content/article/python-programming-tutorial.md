@@ -5,6 +5,7 @@ slug: python-programming-tutorial
 date: 09/02/2025
 author: Alex
 image: https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+tags: ["C", "Language Basics", "Beginner"]
 ---
 
 # Python Programming Tutorial: A Comprehensive Guide

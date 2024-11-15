@@ -2,9 +2,10 @@
 title: Tech Innovation Summit 2024
 description: Join us for a day of cutting-edge technology discussions and networking with industry leaders
 date: 2024-02-01T10:00:00Z
-endDate: 2024-02-01T18:00:00Z
+endDate: 2024-02-01T18:00:00
 location: Silicon Valley Convention Center
 organizer: Tech Community Hub
+event_type: "past"
 tags: ["conference", "tech", "innovation"]
 ---
 

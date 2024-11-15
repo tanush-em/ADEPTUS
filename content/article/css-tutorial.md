@@ -5,6 +5,7 @@ slug: css-tutorial
 date: 11/02/2025
 author: tanush
 image: https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+tags: ["C", "Language Basics", "Beginner"]
 ---
 
 # CSS Tutorial: A Comprehensive Guide

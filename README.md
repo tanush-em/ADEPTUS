@@ -9,16 +9,21 @@
 - [X] Change design in home page (l -> r)
 - [X] Change color of "readmore" in Article page
 - [X] Create scheme for blog
+- [X] Change design of card showing club members
+- [X] Category/tags in articles
+- [X] Add article and event links in Home page
+- [X] Events card to be made discoverable with info inside (include remark-rehype)
 
 - [ ] Centre content and main div in home page
+- [ ] Create scheme for events
+- [ ] Align components inside slug event page
+- [ ] Make every page responsive
+
+
+- [ ] Add profile pics for members
+- [ ] Add current tab identification
 - [ ] Style buttons differently in navbar
 - [ ] Implement search
-- [ ] Change design of card showing club members
-- [ ] Category/tags in articles
-- [ ] Add article and event links in Home page
-- [ ] Events card to be made discoverable with info inside (include remark-rehype)
-- [ ] Make every page responsive
-- [ ] Add profile pics for members
-- [ ] Create scheme for event
+- [ ] Saieed - linkedin link 
 
 

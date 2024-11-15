@@ -1,8 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/event/page": "app/event/page.js",
   "/article/page": "app/article/page.js",
-  "/blogpost/[slug]/page": "app/blogpost/[slug]/page.js"
+  "/blogpost/[slug]/page": "app/blogpost/[slug]/page.js",
+  "/page": "app/page.js",
+  "/event/page": "app/event/page.js",
+  "/event/[slug]/page": "app/event/[slug]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/team/page": "app/team/page.js",
+  "/about/page": "app/about/page.js"
 }

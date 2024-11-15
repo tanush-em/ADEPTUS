@@ -5,6 +5,7 @@ slug: python-virtual-environments
 date: 15/11/2024
 author: xyz
 image: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+tags: ["C", "Language Basics", "Beginner"]
 ---
 
 # Python Virtual Environments: The Complete Guide

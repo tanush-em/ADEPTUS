@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import Typed from 'typed.js';
 import React, { useRef, useEffect } from 'react';
+import Link from 'next/link'; 
 
 export default function Home() {
   const el = useRef(null);
@@ -40,15 +41,18 @@ export default function Home() {
             <p className="text-xl text-gray-500 dark:text-gray-300">
               An Initiative by Department of CSE-AIML, EEC.
             </p>
-            <div className="flex space-x-4">
-              <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="/article">
-                Explore Articles
-              </Button>
-              <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="/event">
-                Explore Events
-              </Button>
+            <div className="flex justify-center space-x-4">
+              <Link href="/article">
+                <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  Explore Articles
+                </Button>
+              </Link>
+              <Link href="/event">
+                <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  Explore Events
+                </Button>
+              </Link>
             </div>
-
           </div>
         </section>
       </div>

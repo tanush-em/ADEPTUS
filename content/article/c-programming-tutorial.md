@@ -5,7 +5,7 @@ slug: c-programming-tutorial
 date: 02/03/2025
 author: naveen
 image: https://media.licdn.com/dms/image/D4D12AQGvWHFDSOhMCg/article-cover_image-shrink_600_2000/0/1679804058550?e=2147483647&v=beta&t=79sIbe7ddYz70rldXsyxVdBUfAn--qK6yeMmRY77ZQY
-tags: EVENT, 
+tags: ["C", "Language Basics", "Beginner"]
 ---
 
 Welcome to this comprehensive C programming tutorial! Whether you're a complete beginner or looking to deepen your understanding of C, this guide will take you through the fundamentals and introduce advanced concepts as you progress.

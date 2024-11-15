@@ -5,6 +5,7 @@ slug: chatgpt-vs-gemini
 date: 08/02/2025
 author: kavitha
 image: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+tags: ["C", "Language Basics", "Beginner"]
 ---
 
 # ChatGPT vs. Gemini: A Comparative Analysis

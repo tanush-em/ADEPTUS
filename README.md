@@ -1,4 +1,19 @@
 # Issues
+
+## Urgent
+- [ ] Centre content and main div in home page
+- [ ] Create scheme for events
+- [ ] Align components inside slug event page
+- [ ] Make every page responsive
+
+## Pending
+- [ ] Add profile pics for members
+- [ ] Add current tab identification
+- [ ] Style buttons differently in navbar
+- [ ] Implement search
+- [ ] Saieed - linkedin link 
+
+## Solved
 - [X] Remove theme toggle
 - [X] Add linkedin links to member profiles
 - [X] Edit content "meet the ppl behind our succes" to "Discover the talents that fuel our success"
@@ -13,17 +28,4 @@
 - [X] Category/tags in articles
 - [X] Add article and event links in Home page
 - [X] Events card to be made discoverable with info inside (include remark-rehype)
-
-- [ ] Centre content and main div in home page
-- [ ] Create scheme for events
-- [ ] Align components inside slug event page
-- [ ] Make every page responsive
-
-
-- [ ] Add profile pics for members
-- [ ] Add current tab identification
-- [ ] Style buttons differently in navbar
-- [ ] Implement search
-- [ ] Saieed - linkedin link 
-
-
+- [ ] .....

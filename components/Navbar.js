@@ -48,7 +48,7 @@ const Navbar = () => {
         progress={progress}
         onLoaderFinished={() => setProgress(0)}
       />
-      
+    
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}>
                     <div className="text-3xl font-bold flex items-center gap-2">
@@ -58,9 +58,10 @@ const Navbar = () => {
                             width={60} 
                             height={60}
                         />
-                        ADEPTUS
+                        <span className="font-extrabold">ADEPTUS</span> 
                     </div>
                 </Link>
+
                 <div className="hidden md:flex space-x-4 items-center">
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
                     </Link>

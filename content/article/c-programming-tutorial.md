@@ -1,10 +1,10 @@
 ---
-title: C Programming Tutorial
+title: Learn C the easy way
 description: This is JavaScript tutorial and this is for learning JavaScript
 slug: c-programming-tutorial
 date: 02/03/2025
-author: Harry
-image: /typescript.webp
+author: naveen
+image: https://media.licdn.com/dms/image/D4D12AQGvWHFDSOhMCg/article-cover_image-shrink_600_2000/0/1679804058550?e=2147483647&v=beta&t=79sIbe7ddYz70rldXsyxVdBUfAn--qK6yeMmRY77ZQY
 tags: EVENT, 
 ---
 

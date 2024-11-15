@@ -1,25 +1,24 @@
 # Issues
 - [X] Remove theme toggle
-- [ ] Make every page responsive
-- [ ] Change design in home page (l -> r)
-- [ ] Centre content and main div in home page
-- [ ] Add profile pics for members
 - [X] Add linkedin links to member profiles
-- [ ] Implement search
 - [X] Edit content "meet the ppl behind our succes" to "Discover the talents that fuel our success"
-- [ ] Style buttons differently in navbar
-- [ ] Change design of card showing club members
-- [ ] Change "ADEPTUS" font in navbar
-- [ ] Change color of "readmore" in Article page
-- [ ] Cetegory/tags in articles
 - [X] Add instagram, linkedin, whatsapp links in "contact" page
 - [X] Create a new "Team" page
-- [ ] Change metadata for src files
-- [ ] Add article and event links in Home page
-- [ ] Light mode issues (logo, cards, badges)
-- [ ] Events card to be made discoverable with info inside (include remark-rehype)
-- [ ] Create scheme for blog
-- [ ] Create scheme for event
 - [X] Create Contributers list in "team" page
-- [ ] Create readme.md
+- [X] Change metadata for src files
+- [X] Change design in home page (l -> r)
+- [X] Change color of "readmore" in Article page
+- [X] Create scheme for blog
+
+- [ ] Centre content and main div in home page
+- [ ] Style buttons differently in navbar
+- [ ] Implement search
+- [ ] Change design of card showing club members
+- [ ] Category/tags in articles
+- [ ] Add article and event links in Home page
+- [ ] Events card to be made discoverable with info inside (include remark-rehype)
+- [ ] Make every page responsive
+- [ ] Add profile pics for members
+- [ ] Create scheme for event
+
 

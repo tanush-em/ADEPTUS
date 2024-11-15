@@ -18,7 +18,8 @@ import { join } from 'path';
 export const blogSlugs = [
   "c-programming-tutorial",
   "chatgpt-vs-gemini",
-  "python-programming-tutorial"
+  "python-programming-tutorial",
+  "python-virtual-environments"
 ];
 
 // Implement generateStaticParams to tell Next.js which paths to pre-render

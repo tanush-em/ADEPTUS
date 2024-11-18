@@ -1,0 +1,19 @@
+.toc-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.anchor-icon {
+    visibility: hidden;
+    margin-left: 0.5rem;
+}
+
+.heading-hover-icon {
+    visibility: visible;
+}
+
+.highlighted {
+    background-color: rgba(200, 200, 255, 0.1);
+    border-left: 2px solid #60A5FA;
+}

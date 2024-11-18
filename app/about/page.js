@@ -5,13 +5,31 @@ export default function About() {
       <section className="py-12">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold">About Us</h2>
+            <h2 className="text-5xl font-bold">About Adeptus</h2>
           </div>
-          <div className="flex flex-wrap justify-center">
-            <p>blah blah blah</p>
-          </div>
+
+          <div className="container mx-auto px-4 md:px-8 max-w-5xl py-12">
+  <div className="space-y-8 md:space-y-10">
+    <p className="text-xl md:text-2xl mb-6 text-center leading-relaxed font-light">
+      Adeptus is a vibrant technical community dedicated to exploring and sharing knowledge about cutting-edge and niche technologies. Our mission is to foster a collaborative environment where members can learn, grow, and contribute to the ever-evolving tech landscape.
+    </p>
+    
+    <p className="text-xl md:text-2xl mb-6 text-center leading-relaxed font-light">
+      Founded with the vision of bridging the gap between theoretical concepts and practical applications, we serve as a platform for tech enthusiasts, developers, and innovators.
+    </p>
+  
+    <p className="text-xl md:text-2xl mb-6 text-center leading-relaxed font-light">
+      Through weekly newsletters, hands-on workshops, and engaging technical articles, we keep our community informed about the latest developments in technology.
+    </p>
+  </div>
+</div>
+
+
+
         </div>
       </section>
+
+
 
       <section className="py-12 bg-gray-100 dark:bg-gray-900">
         <div className="container px-4 mx-auto">
@@ -89,6 +107,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </main>
+    </main >
   );
 }

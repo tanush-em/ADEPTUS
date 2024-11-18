@@ -9,14 +9,14 @@ export default function Team() {
         {
             name: "Naveen Karthik R",
             role: "Head of Publications",
-            image: "/path-to-image.jpg",
+            image: "/naveen.jpeg",
             linkedin: "http://www.linkedin.com/in/naveen-karthik-rajakumar-a80513257",
             initials: "NK"
         },
         {
             name: "Tanush T M",
             role: "Chief Technical Lead",
-            image: "/path-to-image.jpg",
+            image: "/tanush.png",
             linkedin: "https://www.linkedin.com/in/tanush-tm/",
             initials: "TM"
         }
@@ -26,14 +26,14 @@ export default function Team() {
         {
             name: "Kavitha A",
             role: "Design Head",
-            image: "/path-to-image.jpg",
+            image: "/kavitha.png",
             linkedin: "https://in.linkedin.com/in/kavitha-arumugam-4041b8260",
             initials: "KA"
         },
         {
             name: "Fahmitha Farhana",
             role: "Creative Head",
-            image: "/path-to-image.jpg",
+            image: "/fahmitha.png",
             linkedin: "https://www.linkedin.com/in/fahmitha-farhana-1bbaa92b4",
             initials: "FF"
         },
@@ -47,7 +47,7 @@ export default function Team() {
         {
             name: "Yukitha K",
             role: "Event Coordinator",
-            image: "/path-to-image.jpg",
+            image: "/yukitha.png",
             linkedin: "https://www.linkedin.com/in/yukitha-kumar-154963270",
             initials: "YK"
         }
@@ -65,21 +65,21 @@ export default function Team() {
         {
             name: "Akhil T",
             role: "Joint Creative Head",
-            image: "/path-to-image.jpg",
+            image: "/akhil.png",
             linkedin: "https://www.linkedin.com/in/akhil-tamilselvan-b38516278",
             initials: "AT"
         },
         {
             name: "Harini K",
             role: "Joint Logistics Head",
-            image: "/path-to-image.jpg",
+            image: "/harini.png",
             linkedin: "https://www.linkedin.com/in/harini-k-aa2b65292/",
             initials: "HK"
         },
         {
             name: "Devipriya S",
             role: "Joint Event Coordinator",
-            image: "/path-to-image.jpg",
+            image: "/devipriya.png",
             linkedin: "https://www.linkedin.com/in/devipriya-s05",
             initials: "DS"
         }
@@ -199,15 +199,18 @@ export default function Team() {
             <section className="px-4 py-8 sm:py-12">
                 <div>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 sm:mt-5 mb-8 sm:mb-12 text-center">
-                        Contributors
+                        Contributions
                     </h2>
-                    <ul className="list-disc flex flex-col items-center max-w-2xl mx-auto px-4">
+                    <p className="text-center max-w-4xl mx-auto mb-8 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
+                        Collaborations and Contributions are very much welcomed and encouraged !!
+                    </p>
+
+                    <ul className="list-disc flex flex-col items-center max-w-3xl mx-auto px-4">
                         <li className="mb-3">
-                            <p className="text-sm sm:text-base font-semibold text-gray-900 dark:text-white">
-                                tbsvbib [Student Technical Writer] contributed to <i>sdvbdsbvsdb</i>
+                            <p className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+                                abcdefgh [contribution] contributed to <i>abcdefgh</i> article
                             </p>
                         </li>
-                        {/* ... other list items ... */}
                     </ul>
                 </div>
             </section>

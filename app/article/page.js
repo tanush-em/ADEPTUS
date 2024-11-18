@@ -50,7 +50,7 @@ const Blog = () => {
               </div>
 
               <Link 
-                href={`/blogpost/${blog.slug}`} 
+                href={`/article/${blog.slug}`} 
                 className={`${buttonVariants({ variant: "secondary" })} w-full sm:w-auto text-center`}
               >
                 Read More

@@ -8,7 +8,10 @@ export default function Contact() {
         <h1 className="text-5xl sm:text-4xl font-bold text-center mb-6 sm:mb-8">
           Contact Us
         </h1>
-        
+        <p className="text-center max-w-4xl mx-auto mb-8 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
+          For collaborations and queries , prefer contacting via mail.
+        </p>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           <Card className="p-6 sm:p-8 bg shadow-lg hover:shadow-xl transition-shadow">
             <div className="text-center">
@@ -34,12 +37,12 @@ export default function Contact() {
                 Follow us on LinkedIn for Networking and Informative feeds
               </p>
               <a
-                href="https://linkedin.com/company/your-company"
+                href="https://www.linkedin.com/in/adeptus-eec/"
                 className="text-blue-600 text-lg sm:text-xl font-medium hover:text-blue-700 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn Profile
+                Adeptus EEC
               </a>
             </div>
           </Card>
@@ -52,12 +55,12 @@ export default function Contact() {
                 Stay updated with our latest posts and stories
               </p>
               <a
-                href="https://instagram.com/your-handle"
+                href="https://www.instagram.com/adeptus_eec/"
                 className="text-pink-600 text-lg sm:text-xl font-medium hover:text-pink-700 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @our-handle
+                @ADEPTUS_EEC
               </a>
             </div>
           </Card>

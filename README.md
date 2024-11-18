@@ -3,8 +3,6 @@
 ## Urgent
 - [ ] Centre content and main div in home page
 - [ ] /home to be made responsive
-- [ ] Add profile pics for members
-- [ ] Update contact links
 
 ## Pending Features
 - [ ] Implement search
@@ -30,5 +28,7 @@
 - [X] Events card to be made discoverable with info inside (include remark-rehype)
 - [X] Saieed - linkedin link 
 - [X] Create scheme for events
+- [X] Add profile pics for members
+- [X] Update contact links
 - [X] Align components inside slug event page
 - [ ] .....

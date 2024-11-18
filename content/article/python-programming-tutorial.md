@@ -3,7 +3,7 @@ title: Python Programming Tutorial
 description: This is a comprehensive Python tutorial for beginners and advanced learners.
 slug: python-programming-tutorial
 date: 09/02/2025
-author: Alex
+author: xyz
 image: https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 tags: ["C", "Language Basics", "Beginner"]
 ---

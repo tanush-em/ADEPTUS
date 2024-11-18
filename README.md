@@ -4,8 +4,9 @@
 - [ ] Centre content and main div in home page
 - [ ] /home to be made responsive
 - [ ] Add profile pics for members
+- [ ] Update contact links
 
-## Pending
+## Pending Features
 - [ ] Implement search
 
 ## Solved

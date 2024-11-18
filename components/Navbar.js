@@ -107,7 +107,7 @@ const Navbar = () => {
                                 </SheetTitle>
                                 <SheetDescription>
                                     <div className="flex flex-col gap-6">
-                                        <div onClick={() => handleNavigation('/home')}>Home</div>
+                                        <div onClick={() => handleNavigation('/')}>Home</div>
                                         <div onClick={() => handleNavigation('/about')}>About Us</div>
                                         <div onClick={() => handleNavigation('/article')}>Articles</div>
                                         <div onClick={() => handleNavigation('/event')}>Events</div>

@@ -5,13 +5,13 @@
 - [ ] Create scheme for events
 - [ ] Align components inside slug event page
 - [ ] Make every page responsive
+- [ ] Add profile pics for members
 
 ## Pending
-- [ ] Add profile pics for members
 - [ ] Add current tab identification
 - [ ] Style buttons differently in navbar
 - [ ] Implement search
-- [ ] Saieed - linkedin link 
+
 
 ## Solved
 - [X] Remove theme toggle
@@ -28,4 +28,5 @@
 - [X] Category/tags in articles
 - [X] Add article and event links in Home page
 - [X] Events card to be made discoverable with info inside (include remark-rehype)
+- [X] Saieed - linkedin link 
 - [ ] .....

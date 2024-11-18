@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Linkedin } from "lucide-react"
+import { Linkedin } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Team() {
@@ -41,7 +41,7 @@ export default function Team() {
             name: "Saieed Marichamy",
             role: "Logistics Head",
             image: "/path-to-image.jpg",
-            linkedin: "https://linkedin.com/in/",
+            linkedin: "https://www.linkedin.com/in/saieed-marichamy-19030a202/",
             initials: "SM"
         },
         {

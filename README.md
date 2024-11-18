@@ -15,9 +15,9 @@ An Initiative by the Department of CSE - AI & Ml, EEC.
 - Shadcn UI
 
 ## Issues
-[] - Global Search functionality
-[] - Pagination in /article
-[] - Categorize in /article
+- [] - Global Search functionality
+- [] - Pagination in /article
+- [] - Categorize in /article
 
 ## 📝 License
 

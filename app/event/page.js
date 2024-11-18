@@ -21,7 +21,6 @@ export default async function EventsPage() {
         })
         .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
 
-    // Filter events based on event_type attribute
     const pastEvents = events.filter(event => event.event_type === "past");
     const liveEvents = events.filter(event => event.event_type === "live");
     const upcomingEvents = events.filter(event => event.event_type === "upcoming");
@@ -76,7 +75,7 @@ export default async function EventsPage() {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold mb-8 text-center">Events</h1>
+            <h1 className="text-5xl font-bold mb-8 text-center">Events</h1>
             
             {upcomingEvents.length > 0 && (
                 <EventSection 

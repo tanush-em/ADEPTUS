@@ -89,7 +89,6 @@ export default function Team() {
         <main className="min-h-screen">
             <section className="py-8 sm:py-12 bg-gray-100 dark:bg-gray-900">
                 <div className="container px-4 mx-auto">
-                    {/* Header Section - More responsive text sizes */}
                     <div className="text-center mb-8 sm:mb-16">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-2 sm:mb-4">
                             Our Team

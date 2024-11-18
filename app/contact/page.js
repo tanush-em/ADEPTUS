@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-b py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6 sm:mb-8">
+        <h1 className="text-5xl sm:text-4xl font-bold text-center mb-6 sm:mb-8">
           Contact Us
         </h1>
         

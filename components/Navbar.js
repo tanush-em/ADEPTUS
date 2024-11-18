@@ -16,23 +16,22 @@ import LoadingBar from 'react-top-loading-bar';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
-
 const Navbar = () => {
-
     const [progress, setProgress] = useState(0)
     const pathname = usePathname()
 
+    const isActive = (path) => {
+        return pathname === path ? "relative text-primary font-semibold after:absolute after:bottom-[-5px] after:left-0 after:h-[2px] after:w-full after:bg-primary after:content-['']" : "";
+    };
+
     useEffect(() => {
       setProgress(20)
-
       setTimeout(() => {
         setProgress(40)
       }, 350);
-
       setTimeout(() => {
         setProgress(100)
       }, 700);
-     
     }, [pathname]);
 
     useEffect(() => {
@@ -44,10 +43,10 @@ const Navbar = () => {
     return (
         <nav className="p-4 bg-background/50 sticky top-0 backdrop-blur border-b z-10">
             <LoadingBar
-        color='#933ce6'
-        progress={progress}
-        onLoaderFinished={() => setProgress(0)}
-      />
+                color='#933ce6'
+                progress={progress}
+                onLoaderFinished={() => setProgress(0)}
+            />
     
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}>
@@ -62,33 +61,28 @@ const Navbar = () => {
                     </div>
                 </Link>
 
-                <div className="hidden md:flex space-x-4 items-center">
-                    <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
+                <div className="hidden md:flex space-x-6 items-center">
+                    <Link href="/" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/")}`}>
+                        Home
                     </Link>
-                    <Link href="/about" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/about" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/about")}`}>
                         About
                     </Link>
-                    <Link href="/article" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/article" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/article")}`}>
                         Articles
                     </Link>
-                    <Link href="/event" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/event" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/event")}`}>
                         Events
                     </Link>
-                    <Link href="/team" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/team" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/team")}`}>
                         Our Team
                     </Link>
-                    <Link href="/contact" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+                    <Link href="/contact" className={`hover:scale-105 transition-transform duration-300 text-lg ${isActive("/contact")}`}>
                         Contact
                     </Link>
-                    {/* <div className='flex items-center'>
-                        <ModeToggle />
-                    </div> */}
                 </div>
 
                 <div className="md:hidden">
-                        {/*<span className="mx-2"> 
-                            <ModeToggle />
-                        </span>*/}
                     <Sheet>
                         <SheetTrigger>
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -108,21 +102,22 @@ const Navbar = () => {
                                 </SheetTitle>
                                 <SheetDescription>
                                     <div className="flex flex-col gap-6">
-                                        <Link href="/"> Home
+                                        <Link href="/" className={isActive("/")}>
+                                            Home
                                         </Link>
-                                        <Link href="/about">
+                                        <Link href="/about" className={isActive("/about")}>
                                             About
                                         </Link>
-                                        <Link href="/article">
+                                        <Link href="/article" className={isActive("/article")}>
                                             Articles
                                         </Link>
-                                        <Link href="/event">
+                                        <Link href="/event" className={isActive("/event")}>
                                             Events
                                         </Link>
-                                        <Link href="/team">
+                                        <Link href="/team" className={isActive("/team")}>
                                             Our Team
                                         </Link>
-                                        <Link href="/contact">
+                                        <Link href="/contact" className={isActive("/contact")}>
                                             Contact
                                         </Link>
                                     </div>

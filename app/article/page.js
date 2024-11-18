@@ -13,29 +13,11 @@ const blogs = dirContent.map(file=>{
     return data
 });
 
-// const blogs = [
-//   {
-//     title: 'First Blog',
-//     description: 'This is the first blog description.',
-//     slug: 'first-blog',
-//     date: '2023-10-01',
-//     author: 'John Doe',
-//     image: '/typescript.webp'
-//   },
-//   {
-//     title: 'Second Blog',
-//     description: 'This is the second blog description.',
-//     slug: 'second-blog',
-//     date: '2023-10-02',
-//     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-//   }
-
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
       {/* Main heading for the blog section */}
-      <h1 className="text-4xl font-bold mb-8 text-center">Articles</h1>
+      <h1 className="text-5xl font-bold mb-8 text-center">Articles</h1>
       
       {/* Grid layout for blog posts */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

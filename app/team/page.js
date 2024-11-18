@@ -86,34 +86,43 @@ export default function Team() {
     ];
 
     return (
-        <main>
-            <section className="py-12 bg-gray-100 dark:bg-gray-900">
+        <main className="min-h-screen">
+            <section className="py-8 sm:py-12 bg-gray-100 dark:bg-gray-900">
                 <div className="container px-4 mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="text-5xl font-bold tracking-tight mb-4">Our Team</h2>
-                        <p className="text-gray-600 dark:text-gray-400">Discover the talents that fuel our success</p>
+                    {/* Header Section - More responsive text sizes */}
+                    <div className="text-center mb-8 sm:mb-16">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-2 sm:mb-4">
+                            Our Team
+                        </h2>
+                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+                            Discover the talents that fuel our success
+                        </p>
                     </div>
 
-                    <div className="mb-16">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                    <div className="mb-8 sm:mb-16">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 max-w-3xl mx-auto">
                             {founders.map((member, index) => (
-                                <Card key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                                <Card key={index} className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
                                     <div className="flex flex-col items-center">
-                                        <Avatar className="w-24 h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
+                                        <Avatar className="w-20 h-20 sm:w-24 sm:h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
                                             <AvatarImage src={member.image} alt={member.name} />
                                             <AvatarFallback>{member.initials}</AvatarFallback>
                                         </Avatar>
-                                        <h4 className="text-xl font-semibold text-gray-900 dark:text-white">{member.name}</h4>
-                                        <p className="text-gray-600 dark:text-gray-400 font-medium mt-1">{member.role}</p>
+                                        <h4 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white text-center">
+                                            {member.name}
+                                        </h4>
+                                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 font-medium mt-1 text-center">
+                                            {member.role}
+                                        </p>
                                     </div>
-                                    <Button asChild className="w-full bg-[#0077b5] hover:bg-[#006699]">
+                                    <Button asChild className="w-full mt-4 bg-[#0077b5] hover:bg-[#006699]">
                                         <a
                                             href={member.linkedin}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center justify-center"
+                                            className="flex items-center justify-center text-sm sm:text-base"
                                         >
-                                            <Linkedin className="w-5 h-5 mr-2" />
+                                            <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                             Connect on LinkedIn
                                         </a>
                                     </Button>
@@ -121,26 +130,31 @@ export default function Team() {
                             ))}
                         </div>
                     </div>
-                    <div className="mb-16">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div className="mb-8 sm:mb-16">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                             {seniorTeam.map((member, index) => (
-                                <Card key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                                <Card key={index} className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                                     <div className="flex flex-col items-center">
-                                        <Avatar className="w-24 h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
+                                        <Avatar className="w-20 h-20 sm:w-24 sm:h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
                                             <AvatarImage src={member.image} alt={member.name} />
                                             <AvatarFallback>{member.initials}</AvatarFallback>
                                         </Avatar>
-                                        <h4 className="text-lg font-semibold text-gray-900 dark:text-white">{member.name}</h4>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">{member.role}</p>
+                                        <h4 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white text-center">
+                                            {member.name}
+                                        </h4>
+                                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 font-medium mt-1 text-center">
+                                            {member.role}
+                                        </p>
                                     </div>
-                                    <Button asChild className="w-full bg-[#0077b5] hover:bg-[#006699]">
+                                    <Button asChild className="w-full mt-4 bg-[#0077b5] hover:bg-[#006699]">
                                         <a
                                             href={member.linkedin}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center justify-center"
+                                            className="flex items-center justify-center text-sm sm:text-base"
                                         >
-                                            <Linkedin className="w-5 h-5 mr-2" />
+                                            <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                             Connect on LinkedIn
                                         </a>
                                     </Button>
@@ -148,26 +162,31 @@ export default function Team() {
                             ))}
                         </div>
                     </div>
+
                     <div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                             {juniorTeam.map((member, index) => (
-                                <Card key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                                <Card key={index} className="p-3 sm:p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                                     <div className="flex flex-col items-center">
-                                        <Avatar className="w-24 h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
+                                        <Avatar className="w-20 h-20 sm:w-24 sm:h-24 mb-3 ring-2 ring-blue-100 dark:ring-blue-900">
                                             <AvatarImage src={member.image} alt={member.name} />
                                             <AvatarFallback>{member.initials}</AvatarFallback>
                                         </Avatar>
-                                        <h4 className="text-lg font-semibold text-gray-900 dark:text-white">{member.name}</h4>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">{member.role}</p>
+                                        <h4 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white text-center">
+                                            {member.name}
+                                        </h4>
+                                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 font-medium mt-1 text-center">
+                                            {member.role}
+                                        </p>
                                     </div>
-                                    <Button asChild className="w-full bg-[#0077b5] hover:bg-[#006699]">
+                                    <Button asChild className="w-full mt-4 bg-[#0077b5] hover:bg-[#006699]">
                                         <a
                                             href={member.linkedin}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center justify-center"
+                                            className="flex items-center justify-center text-sm sm:text-base"
                                         >
-                                            <Linkedin className="w-5 h-5 mr-2" />
+                                            <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                             Connect on LinkedIn
                                         </a>
                                     </Button>
@@ -177,29 +196,22 @@ export default function Team() {
                     </div>
                 </div>
             </section>
-            <section>
+
+            <section className="px-4 py-8 sm:py-12">
                 <div>
-                    <h2 className="text-4xl font-bold mt-5 mb-12 text-center">Contributors</h2>
-                    <ul className="list-disc flex flex-col items-center">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 sm:mt-5 mb-8 sm:mb-12 text-center">
+                        Contributors
+                    </h2>
+                    <ul className="list-disc flex flex-col items-center max-w-2xl mx-auto px-4">
                         <li className="mb-3">
-                            <p className="text-m font-semibold text-gray-900 dark:text-white">
+                            <p className="text-sm sm:text-base font-semibold text-gray-900 dark:text-white">
                                 tbsvbib [Student Technical Writer] contributed to <i>sdvbdsbvsdb</i>
                             </p>
                         </li>
-                        <li className="mb-3">
-                            <p className="text-m font-semibold text-gray-900 dark:text-white">
-                                tbsvbib [Student Technical Writer] contributed to <i>sdvbdsbvsdb</i>
-                            </p>
-                        </li>
-                        <li className="mb-3">
-
-                        </li>
-                        <li className="mb-3">
-
-                        </li>
+                        {/* ... other list items ... */}
                     </ul>
                 </div>
             </section>
         </main>
     );
-}
+}    

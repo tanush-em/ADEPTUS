@@ -129,8 +129,12 @@ export default async function Page({ params }) {
         }
       },
       onVisitHighlightedLine(node) {
+        if (!node.properties.className) {
+          node.properties.className = [];
+        }
         node.properties.className.push('highlighted');
-      },
+      }
+      ,
       onVisitHighlightedWord(node) {
         node.properties.className = ['word'];
       },
@@ -163,10 +167,10 @@ export default async function Page({ params }) {
         <p className="text-xs md:text-sm text-gray-500 italic">By {data.author}</p>
         <p className="text-xs md:text-sm text-gray-500">{data.date}</p>
       </div>
-      
+
       <div className="flex flex-col lg:flex-row gap-8">
-        <div 
-          dangerouslySetInnerHTML={{ __html: htmlContent }} 
+        <div
+          dangerouslySetInnerHTML={{ __html: htmlContent }}
           className="prose dark:prose-invert max-w-none lg:w-[75%]
                      prose-headings:scroll-mt-20
                      prose-sm md:prose-base
@@ -192,5 +196,5 @@ export default async function Page({ params }) {
         </div>
       </div>
     </div>
-);
+  );
 }

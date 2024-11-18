@@ -1,10 +1,18 @@
-import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
 export default function About() {
 
   return (
     <main>
+      <section className="py-12">
+        <div className="container px-4 mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl font-bold">About Us</h2>
+          </div>
+          <div className="flex flex-wrap justify-center">
+            <p>blah blah blah</p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 bg-gray-100 dark:bg-gray-900">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-12">

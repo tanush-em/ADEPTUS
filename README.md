@@ -9,10 +9,15 @@ An Initiative by the Department of CSE - AI & Ml, EEC.
 - React.js
 - Tailwind CSS
 - Custom CSS Gradients
--  
+- Remark & Rehype
 - Theme Toggle
 - Typed.js
 - Shadcn UI
+
+## Issues
+[] - Global Search functionality
+[] - Pagination in /article
+[] - Categorize in /article
 
 ## 📝 License
 

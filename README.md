@@ -1,34 +1,28 @@
-# Issues
+# Adeptus - Technical Club Website
 
-## Urgent
-- [ ] Centre content and main div in home page
-- [ ] /home to be made responsive
+Adeptus is a vibrant technical community dedicated to exploring and sharing knowledge about cutting-edge and niche technologies. Our mission is to foster a collaborative environment where members can learn, grow, and contribute to the ever-evolving tech landscape.
+An Initiative by the Department of CSE - AI & Ml, EEC.
 
-## Pending Features
-- [ ] Implement search
+## 🛠️ Tech Stack
 
-## Solved
-- [X] Remove theme toggle
-- [X] Add linkedin links to member profiles
-- [X] Edit content "meet the ppl behind our succes" to "Discover the talents that fuel our success"
-- [X] Add instagram, linkedin, whatsapp links in "contact" page
-- [X] Create a new "Team" page
-- [X] Make every page responsive
-- [X] Create Contributers list in "team" page
-- [X] Change metadata for src files
-- [X] Change design in home page (l -> r)
-- [X] Change color of "readmore" in Article page
-- [X] Create scheme for blog
-- [X] /event to be made responsive
-- [X] Change design of card showing club members
-- [X] Category/tags in articles
-- [X] Add current tab identification
-- [X] Style buttons differently in navbar
-- [X] Add article and event links in Home page
-- [X] Events card to be made discoverable with info inside (include remark-rehype)
-- [X] Saieed - linkedin link 
-- [X] Create scheme for events
-- [X] Add profile pics for members
-- [X] Update contact links
-- [X] Align components inside slug event page
-- [ ] .....
+- Next.js
+- React.js
+- Tailwind CSS
+- Custom CSS Gradients
+-  
+- Theme Toggle
+- Typed.js
+- Shadcn UI
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## 🙏 Acknowledgments
+
+- Department of CSE-AIML, SRM Easwari Engineering College
+- All contributors and maintainers
+
+## 📧 Contact
+
+For any queries regarding the website, please reach out to [tanushtm.work@gmail.com]

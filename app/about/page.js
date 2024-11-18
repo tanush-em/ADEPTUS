@@ -15,7 +15,7 @@ export default function About() {
     </p>
     
     <p className="text-xl md:text-2xl mb-6 text-center leading-relaxed font-light">
-      Founded with the vision of bridging the gap between theoretical concepts and practical applications, we serve as a platform for tech enthusiasts, developers, and innovators.
+      Founded with the vision of bridging the gap between theoretical concepts and practical applications, we serve as a platform for tech enthusiasts and developers.
     </p>
   
     <p className="text-xl md:text-2xl mb-6 text-center leading-relaxed font-light">

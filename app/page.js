@@ -29,7 +29,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-[900px] flex-shrink-0 space-y-4 md:space-y-6 px-4 sm:px-8 lg:px-0">
-            <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-800 dark:text-gray-200 text-center ">
+            <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-800 dark:text-gray-200">
               Welcome to <span ref={el}></span>
             </h1>
 

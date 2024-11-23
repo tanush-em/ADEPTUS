@@ -1,10 +1,8 @@
 ---
-title: Tech Innovation Summit 2024
+title: Inaugaration Ceremony of ADEPTUS 
 description: Join us for a day of cutting-edge technology discussions and networking with industry leaders
-date: 2024-02-01T10:00:00Z
-endDate: 2024-02-01T18:00:00
-location: Silicon Valley Convention Center
-organizer: Tech Community Hub
+date: 2024-10-24T09:30:00Z
+location: Hi-Tech Hall II, EEC
 event_type: "past"
 tags: ["conference", "tech", "innovation"]
 ---
@@ -13,6 +11,8 @@ tags: ["conference", "tech", "innovation"]
 
 Join us for the Tech Innovation Summit 2024, where leading technologists and innovators will share insights into the latest technological advancements and future trends.
 
+![image](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/tanush.png)
+    
 ### Schedule
 
 - 10:00 AM - Registration and Networking
@@ -30,3 +30,9 @@ Join us for the Tech Innovation Summit 2024, where leading technologists and inn
 - Product demonstrations
 
 Register now to secure your spot at this premier tech event!
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|

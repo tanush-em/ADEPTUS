@@ -40,7 +40,7 @@ export default function Team() {
         {
             name: "Saieed Marichamy",
             role: "Logistics Head",
-            image: "/path-to-image.jpg",
+            image: "/saieed.png",
             linkedin: "https://www.linkedin.com/in/saieed-marichamy-19030a202/",
             initials: "SM"
         },

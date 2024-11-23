@@ -21,21 +21,21 @@ import { Badge } from "@/components/ui/badge";
 
 function getEventSlugs() {
   const contentDir = join(process.cwd(), 'content', 'event');
-  
+
   if (!fs.existsSync(contentDir)) {
     console.warn('Event content directory not found:', contentDir);
     return [];
   }
 
   const files = fs.readdirSync(contentDir);
-  
+
   return files
     .filter(filename => filename.endsWith('.md'))
     .map(filename => filename.replace('.md', ''));
 }
 
 export async function generateStaticParams() {
-  const eventSlugs = getEventSlugs(); 
+  const eventSlugs = getEventSlugs();
   return eventSlugs.map((slug) => ({
     slug,
   }));
@@ -58,7 +58,6 @@ export async function generateMetadata({ params }) {
     title: data.title,
     description: data.description,
     date: data.date,
-    organizer: data.organizer,
   };
 }
 
@@ -147,9 +146,9 @@ export default async function EventPage({ params }) {
       <div className="max-w-4xl mx-auto mb-6 md:mb-8">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">{data.title}</h1>
-          {/* <Badge variant={getBadgeVariant(data.event_type)}>
+          <Badge variant={getBadgeVariant(data.event_type)}>
             {data.event_type}
-          </Badge> */}
+          </Badge>
         </div>
 
         <p className="text-sm md:text-base mb-4 md:mb-6 border-l-4 border-gray-500 pl-4 italic bg-gray-50 dark:bg-gray-800/50 py-2 md:py-3 rounded-r">
@@ -163,20 +162,14 @@ export default async function EventPage({ params }) {
                 <span className="font-semibold sm:min-w-24">Date:</span>
                 {new Date(data.date).toLocaleString()}
               </p>
-              <p className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-                <span className="font-semibold sm:min-w-24">End Date:</span>
-                {new Date(data.endDate).toLocaleString()}
-              </p>
+              {/* Remove end date since it's not in the new schema */}
             </div>
             <div className="space-y-2 md:space-y-3">
               <p className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                 <span className="font-semibold sm:min-w-24">Location:</span>
                 {data.location}
               </p>
-              <p className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-                <span className="font-semibold sm:min-w-24">Organizer:</span>
-                {data.organizer}
-              </p>
+              {/* Remove organizer since it's not in the new schema */}
             </div>
           </div>
         </div>
@@ -191,7 +184,7 @@ export default async function EventPage({ params }) {
           </div>
         )}
       </div>
-      
+
       <div
         dangerouslySetInnerHTML={{ __html: htmlContent }}
         className="prose dark:prose-invert max-w-4xl mx-auto

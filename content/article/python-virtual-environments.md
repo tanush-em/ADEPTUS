@@ -2,9 +2,9 @@
 title: Python Virtual Environments
 description: A comprehensive guide to Python virtual environments, their importance, and how to use them effectively
 slug: python-virtual-environments
-date: 23/11/2024
+date: 11/24/2024
 author: Tanush T M
-image: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: https://i.ytimg.com/vi/59r6yK2zw7M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSmthJTnPhUhEx_eIzXOsA6OzUZA
 tags: ["Python", "Deployments", "Package-Management"]
 ---
 
@@ -57,6 +57,7 @@ Package    Version
 pip        21.1.1
 setuptools 56.0.0
 ```
+There is however another way to use virtual environment, that is by using some kind of end to end dependancy management third party tools like Hatch, Poetry etc.
 
 ## Managing Dependencies
 

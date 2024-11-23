@@ -162,14 +162,12 @@ export default async function EventPage({ params }) {
                 <span className="font-semibold sm:min-w-24">Date:</span>
                 {new Date(data.date).toLocaleString()}
               </p>
-              {/* Remove end date since it's not in the new schema */}
             </div>
             <div className="space-y-2 md:space-y-3">
               <p className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                 <span className="font-semibold sm:min-w-24">Location:</span>
                 {data.location}
               </p>
-              {/* Remove organizer since it's not in the new schema */}
             </div>
           </div>
         </div>

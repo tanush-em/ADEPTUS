@@ -186,7 +186,7 @@ export default async function Page({ params }) {
             <OnThisPage htmlContent={htmlContent} />
           </div>
           <div className="lg:hidden mb-8">
-            <details className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <details className="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
               <summary className="font-semibold cursor-pointer">
                 On This Page
               </summary>

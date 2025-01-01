@@ -5,7 +5,7 @@ slug: ollama
 date: 01/01/2025
 author: Naveen Karthik
 image: https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART004/title.png
-tags: ["LLM", "Setup", "Beginner"]
+tags: ["LLM","SLM","Setup", "Beginner"]
 ---
 
 Running large language models (LLMs) like ChatGPT and Claude usually involves sending data to servers managed by OpenAI and other AI model providers. While these services are secure, some businesses prefer to keep their data entirely offline for greater privacy.

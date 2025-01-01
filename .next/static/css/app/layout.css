@@ -3587,6 +3587,18 @@ code[data-line-numbers-max-digits="4"] > [data-line]::before {
     width: 900px;
   }
 
+  .lg\:w-\[15\%\] {
+    width: 15%;
+  }
+
+  .lg\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:max-w-full {
     max-width: 100%;
   }

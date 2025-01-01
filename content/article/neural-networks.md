@@ -1,9 +1,9 @@
 ---
-title: Breaking Down Neural Networks: How They Work
-description: understanding neural networks, their components and varieties. 
+title: Breaking Down Neural Networks
+description: Understanding neural networks, their components and varieties. 
 slug: neural-networks
 date: 01/01/2025
-author: Tanush T M
+author: xxx
 image: https://www.imsl.com/sites/default/files/image/2021-01/social-blog-neural-networks-november.jpg
 tags: ["Deep Learning", "Theory", "Beginner Friendly"]
 ---

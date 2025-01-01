@@ -3,7 +3,7 @@ title: Learn Git and GitHub
 description: Learn to Version Control using Git and GitHub
 slug: git-and-github
 date: 11/24/2024
-author: Tanush T M
+author: Tanush Mahadevan
 image: https://img-c.udemycdn.com/course/750x422/3352204_9c9a_20.jpg
 tags: ["Git", "GitHub", "Version Control", "Beginner"]
 ---

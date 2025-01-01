@@ -3,7 +3,7 @@ title: Protect your Privacy Online
 description: A comprehensive guide to securing your online presence and protecting your digital privacy
 slug: protect-privacy
 date: 01/01/2025
-author: xxx
+author: Nithish Khanna
 image: https://scwcontent.affino.com/AcuCustom/Sitename/DAM/012/news-feb2018-data-privacykeyred_Cropped.jpg
 tags: ["Safety", "Privacy", "Cybersecurity"]
 ---

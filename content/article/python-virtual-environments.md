@@ -3,7 +3,7 @@ title: Python Virtual Environments
 description: A comprehensive guide to Python virtual environments, their importance, and how to use them effectively
 slug: python-virtual-environments
 date: 11/24/2024
-author: Tanush T M
+author: Tanush Mahadevan
 image: https://i.ytimg.com/vi/59r6yK2zw7M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSmthJTnPhUhEx_eIzXOsA6OzUZA
 tags: ["Python", "Deployments", "Package-Management"]
 ---

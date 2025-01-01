@@ -3,7 +3,7 @@ title: Breaking Down Neural Networks
 description: Understanding neural networks, their components and varieties. 
 slug: neural-networks
 date: 01/01/2025
-author: xxx
+author: Kavitha A
 image: https://www.imsl.com/sites/default/files/image/2021-01/social-blog-neural-networks-november.jpg
 tags: ["Deep Learning", "Theory", "Beginner Friendly"]
 ---

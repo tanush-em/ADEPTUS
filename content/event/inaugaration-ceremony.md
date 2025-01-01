@@ -27,7 +27,7 @@ The event was graced by the esteemed presence of Mrs. Selvi Perumal, a Senior Ma
 
 The program commenced with a warm welcome speech from the club president 🎤, who articulated the vision behind Adeptus. The president emphasized the importance of AI and ML in today's technology-driven world and how Adeptus aims to equip students with the skills necessary to excel in these fields. 
 
-![Principal's Address](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/principal-addressing.jpeg)
+![Principal's Address](https://res.cloudinary.com/dmrdiqtkm/image/upload/v1735706413/adeptus-demo_blxmlo.png)
 *Our respected Principal addressing the gathering* 📢
 
 The welcome speech highlighted the club's commitment to fostering a creative spirit and encouraging collaboration among peers , ensuring all members have the opportunity to learn and innovate together. This was followed by a vibrant welcome dance , performed by the department's dance troupe, adding a cultural touch to this technical inauguration.

@@ -55,7 +55,7 @@ These functions introduce non-linearity to the network, enabling it to learn com
 ### Step 4: Iterative Learning
 - Steps 1 to 3 are repeated for multiple iterations (epochs) until the network's performance reaches an acceptable level
 
-![Neural Network Process](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART003/3.png)
+![Neural Network Process](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART003/3.jpeg)
 
 ## Types of Neural Networks
 

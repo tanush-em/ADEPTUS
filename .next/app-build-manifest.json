@@ -16,21 +16,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/article/page.js"
     ],
-    "/event/page": [
+    "/article/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/event/page.js"
+      "static/css/app/article/[slug]/page.css",
+      "static/chunks/app/article/[slug]/page.js"
     ],
     "/team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/team/page.js"
     ],
-    "/article/[slug]/page": [
+    "/event/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/article/[slug]/page.css",
-      "static/chunks/app/article/[slug]/page.js"
+      "static/chunks/app/event/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

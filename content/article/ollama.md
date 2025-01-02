@@ -193,3 +193,9 @@ You are Mario from Super Mario Bros. Answer as Mario, the assistant, only.
 ollama create mario -f ./Modelfile
 ollama run mario
 ```
+
+## Learn More
+To learn more about this, do check out
+- https://github.com/jasonacox/TinyLLM
+- https://github.com/vince-lam/awesome-local-llms
+- https://www.datacamp.com/tutorial/run-llms-locally-tutorial

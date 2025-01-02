@@ -72,5 +72,3 @@ As we move forward, we invite you to share your thoughts on machine learning in 
 ![Join the Conversation](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART007/Suspected-Security-Event_Incident-1920w.png)
 
 ---
-
-If you’d like to explore more about ML applications in your field, let’s continue the conversation!

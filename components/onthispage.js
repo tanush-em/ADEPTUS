@@ -20,10 +20,10 @@ const OnThisPage = ({ htmlContent }) => {
   return (
     <div className="on-this-page absolute top-24 md:right-48 lg:right-1/4 hidden lg:block">
       <h2 className='text-md font-bold my-2'>On This Page</h2>
-      <ul className='text-m space-y-1'>
+      <ul className='text-m space-y-2'>
         {headings.map((heading, index) => (
           <li key={index}>
-            <a href={`#${heading.id}`}>{heading.text}</a>
+            <a href={`#${heading.id}`}>- {heading.text}</a>
           </li>
         ))}
       </ul>

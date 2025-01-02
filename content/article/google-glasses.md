@@ -3,7 +3,7 @@ title: The Rise and Fall of Google Glasses
 description: Exploring how Google Glass went from revolutionary concept to commercial failure
 slug: google-glasses
 date: 01/01/2025
-author: AKhil T
+author: Akhil T
 image: https://awesomeanalytics.in/wp-content/uploads/2023/07/Google-Glass-The-biggest-failure-of-Google.jpg
 tags: ["GOogle", "Cautionary Tale", "Product Marketing"]
 ---

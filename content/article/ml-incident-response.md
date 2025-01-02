@@ -2,7 +2,7 @@
 title: Automating Incident Response with Machine Learning
 description: Understanding why automating incident response using ML can be a gamechanger.
 slug: ml-incident-response
-date: 02/01/2025
+date: 01/02/2025
 author: Fahmitha Farhana
 image: https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART007/_a1acd9ef-7e8e-405e-9f6a-410c4c264e97.jpg
 tags: ["Machine Learning", "Cybersecurity", "Practical Usecases"]

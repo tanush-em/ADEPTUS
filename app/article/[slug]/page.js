@@ -168,7 +168,7 @@ export default async function Page({ params }) {
         <p className="text-xs md:text-sm text-gray-500">{data.date}</p>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8">
+      <div className="flex flex-col lg:flex-row gap-10">
         <div
           dangerouslySetInnerHTML={{ __html: htmlContent }}
           className="prose dark:prose-invert max-w-none lg:w-[75%]
@@ -181,12 +181,12 @@ export default async function Page({ params }) {
                      prose-pre:bg-gray-900 dark:prose-pre:bg-gray-800
                      prose-pre:overflow-x-auto"
         />
-        <div className="lg:w-[25%] sticky top-20 h-fit">
+        <div className="lg:w-[20%] sticky top-20 h-fit">
           <div className="hidden lg:block">
             <OnThisPage htmlContent={htmlContent} />
           </div>
           <div className="lg:hidden mb-8">
-            <details className="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+            <details className="bg-gray-800 p-3 rounded-lg">
               <summary className="font-semibold cursor-pointer">
                 On This Page
               </summary>

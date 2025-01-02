@@ -4,7 +4,7 @@ description: Understanding why automating incident response using ML can be a ga
 slug: ml-incident-response
 date: 02/01/2025
 author: Fahmitha Farhana
-image: https://www.imsl.com/sites/default/files/image/2021-01/social-blog-neural-networks-november.jpg
+image: https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/ART007/_a1acd9ef-7e8e-405e-9f6a-410c4c264e97.jpg
 tags: ["Machine Learning", "Cybersecurity", "Practical Usecases"]
 ---
 

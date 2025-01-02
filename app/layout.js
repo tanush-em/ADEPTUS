@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,9 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-p-20 scroll-smooth">
       <head>
-        <link 
-          rel="stylesheet" 
-          href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" 
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"
         />
       </head>
       <body className={inter.className}>
@@ -26,8 +27,13 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar/>
-          {children}
+          <div className="min-h-screen flex flex-col">
+            <Navbar />
+            <main className="flex-grow">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

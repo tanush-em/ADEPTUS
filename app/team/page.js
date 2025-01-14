@@ -58,7 +58,7 @@ export default function Team() {
         {
             name: "Nithish Khanna S",
             role: "Joint Design Head",
-            image: "/path-to-image.jpg",
+            image: "/nithish.png",
             linkedin: "https://www.linkedin.com/in/nithish-khanna-solaiyalagu-31082429a/",
             initials: "NK"
         },

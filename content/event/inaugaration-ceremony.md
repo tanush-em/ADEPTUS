@@ -1,7 +1,7 @@
 ---
 title: Inaugaration Ceremony of ADEPTUS 
 description: Witness the grand inauguration of Adeptus, a student chapter empowering the youth on technological awareness and skills that sets the foundation for future tech innovators. 
-date: 2024-10-24T09:30:00Z
+date: "2024-10-24T14:30:00Z"
 location: Hi-Tech Hall II, EEC 
 event_type: "past"
 tags: ["inauguration","a-new-beginning","club-members"]

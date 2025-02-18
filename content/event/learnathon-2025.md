@@ -11,7 +11,7 @@ tags: ["data science", "machine learning", "workshop", "competition"]
 
 ## 🚀 A Hands-On 3-Day Data Science Workshop
 
-![Learnathon Banner](learnathon-banner.jpg)
+![Learnathon Banner](poster.png)
 *Master data science skills and compete in an exciting challenge!*
 
 ## 🏆 About The Event
@@ -25,6 +25,7 @@ The **Adeptus Data Science Learnathon** is an **online** workshop designed for s
 - **Registration Fee**: Free
 
 ## 📚 Learnathon Structure
+The learnathon is structured in such a way that it helps even complete beginners to get into the space of data science and get their hands dirty on basic projects. 
 
 ### **Day 1: Foundations of Data Science & EDA**
 🛠 **Topics Covered:**
@@ -78,10 +79,10 @@ The **Adeptus Data Science Learnathon** is an **online** workshop designed for s
 2. Receive datasets & learning materials.
 3. Participate, learn, and compete!
 
-[Register Now](#) 
+[Register Now](https://forms.gle/UKNcT2eRzF2GaFsTA) 
 
 ## 📞 Contact Information
-- Event Coordinator: [TBA]
+- Event Coordinator: [TBA
 - Technical Support: [TBA]
 
 ---

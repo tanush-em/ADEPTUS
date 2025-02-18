@@ -18,7 +18,7 @@ tags: ["data science", "machine learning", "workshop", "competition"]
 The **Adeptus Data Science Learnathon** is an **online** workshop designed for students to dive into data science through hands-on projects. Over **3 days**, participants will **learn, experiment, and compete** using real-world datasets.
 
 ### 📅 Event Details
-- **Dates**: February 2025 (TBA)
+- **Dates**: 21 February 2025 to 23 February 2025
 - **Mode**: Online
 - **Daily Time Commitment**: 2-3 hours
 - **Team Size**: Solo or Teams (2-3 members)

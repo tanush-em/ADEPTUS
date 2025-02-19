@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Adeptus Logo](https://raw.githubusercontent.com/username/adeptus/main/public/logo.png)
+![Adeptus Logo](public/logo.png)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Next.js](https://img.shields.io/badge/Next.js-13.0-black)](https://nextjs.org/)

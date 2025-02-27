@@ -81,9 +81,9 @@ The learnathon is structured in such a way that it helps even complete beginners
 
 [Register Now](https://forms.gle/UKNcT2eRzF2GaFsTA) 
 
-## 📞 Contact Information
-- Event Coordinator: [TBA]
-- Technical Support: [TBA]
+## 📞 Contact Information for Doubts
+- Nithish Khanna - 8248293794
+- Harini - 9384088362
 
 ---
 

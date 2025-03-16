@@ -18,13 +18,12 @@ This workshop aims to equip students with fundamental ML concepts and their prac
 ## 👥 Featured Speakers & Organizers
 
 This event is facilitated by experienced members who bring their knowledge of ML and Electrical Engineering:
-
-- **Tanush T M**
-- **A Visvesh Sanathan**
-- **Sneha P M**
-- **Rakhesh Krishna P**
-- **Naveen Karthik R**
-- **Jhaishnavi S**
+- Tanush T M
+- A Visvesh Sanathan
+- Sneha P M
+- Rakhesh Krishna P
+- Naveen Karthik R
+- Jhaishnavi S
 
 ## 🔥 What You Will Learn
 
@@ -36,9 +35,9 @@ This event is facilitated by experienced members who bring their knowledge of ML
 
 ## 🏛️ Venue & Schedule
 
-📍 **Location:** EEE Seminar Hall, Main Block First Floor, Easwari Engineering College
-📅 **Date:** 18th March 2025
-⏰ **Time:** 10:00 AM onwards
+- 📍 **Location:** EEE Seminar Hall, Main Block First Floor, Easwari Engineering College
+- 📅 **Date:** 18th March 2025
+- ⏰ **Time:** 10:00 AM onwards
 
 ## 🚀 Why Attend?
 

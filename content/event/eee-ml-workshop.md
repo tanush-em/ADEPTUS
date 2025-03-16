@@ -12,7 +12,8 @@ tags: ["machine-learning", "interdisciplinary", "electrical-engineering", "works
 ![Poster](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/poster.png)
 *Official event poster detailing the workshop and speakers* 🎯
 
-The **Department of Electrical and Electronics Engineering** at **Easwari Engineering College**, in collaboration with the **Electric Vehicle Club, Free and Open Source Software Club, and Adeptus Club**, proudly presents a **one-day workshop** on applying **Machine Learning in Electrical Engineering** using **Python**. This workshop aims to equip students with fundamental ML concepts and their practical implementations in the field of electrical systems.
+The **Department of Electrical and Electronics Engineering** and **Department of CSE - AI & ML** at Easwari Engineering College, in collaboration with the **Electric Vehicle Club, Free and Open Source Software Club and Adeptus Club**, proudly presents a **One Day Hands-on workshop** on applying **Machine Learning in Electrical Engineering** using Python. 
+This workshop aims to equip students with fundamental ML concepts and their practical implementations in the field of electrical systems.
 
 ## 👥 Featured Speakers & Organizers
 
@@ -46,7 +47,7 @@ This event is facilitated by experienced members who bring their knowledge of ML
 - Network with like-minded students and professionals in the field.
 - Receive **certificates of participation** for successfully completing the workshop.
 
-## 📸 Highlights from the Event (Post Event Section)
+## 📸 Highlights from the Event 
 
 _Stay tuned for photos and key takeaways from the event!_
 

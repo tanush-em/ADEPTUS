@@ -1,9 +1,9 @@
 ---
-title: CodeFix - Week I  
+title: CodeFix 
 description: Biweekly technical challenge featuring MCQs and debugging tasks to test problem-solving skills.
 date: "2025-02-27T13:30:00Z"  
 location: Online Event
-event_type: "upcoming"  
+event_type: "past"  
 tags: ["technical-challenge", "coding", "debugging", "MCQ"]  
 ---
 

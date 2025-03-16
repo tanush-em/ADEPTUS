@@ -3,7 +3,7 @@ title: Data Science Learnathon 2025
 description: A 3-day hands-on Data Science workshop, where students learn, build, and compete!
 date: 2025-02-26T10:00:00Z
 location: Online
-event_type: "live"
+event_type: "past"
 tags: ["data science", "machine learning", "workshop", "competition"]
 ---
 

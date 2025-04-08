@@ -3,7 +3,7 @@ title: Applying Machine Learning to Electrical Engineering Using Python
 description: Join us for an exciting one-day workshop exploring the application of Machine Learning in Electrical Engineering using Python. 
 date: "2025-03-18T09:00:00Z"
 location: EEE Seminar Hall, Main Block First Floor, Easwari Engineering College
-event_type: "upcoming"
+event_type: "past"
 tags: ["machine-learning", "interdisciplinary", "electrical-engineering", "workshop"]
 ---
 
@@ -50,8 +50,8 @@ This event is facilitated by experienced members who bring their knowledge of ML
 
 ![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post1.jpeg)
 ![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post2.jpeg)
-![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post3.jpeg)
 ![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post4.jpeg)
+![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post3.jpeg)
 
 ---
 

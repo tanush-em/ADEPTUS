@@ -1,3 +1,4 @@
+---
 title: HackNova 2025
 description: Get ready to innovate, collaborate, and build at HackNova 2025—a one-day hackathon where participants solve real-world problems using cutting-edge technology and teamwork.
 date: "2025-04-12T09:00:00Z"

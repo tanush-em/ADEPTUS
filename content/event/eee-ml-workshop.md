@@ -48,7 +48,10 @@ This event is facilitated by experienced members who bring their knowledge of ML
 
 ## 📸 Highlights from the Event 
 
-_Stay tuned for photos and key takeaways from the event!_
+![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post1.jpeg)
+![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post2.jpeg)
+![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post3.jpeg)
+![Event Pictures](https://raw.githubusercontent.com/tanush-em/adeptus-assets/master/uploads/EVENT003/post4.jpeg)
 
 ---
 

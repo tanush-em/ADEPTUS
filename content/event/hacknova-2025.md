@@ -4,7 +4,7 @@ description: Get ready to innovate, collaborate, and build at HackNova 2025—a 
 date: "2025-04-12T09:00:00Z"
 location: To Be Announced
 event_type: "upcoming"
-tags: ["hackathon", "innovation", "technology", "team-event", "problem-solving"]
+tags: ["hackathon", "innovation", "team-event", "problem-solving"]
 ---
 
 # 🚀 HackNova 2025
@@ -28,7 +28,7 @@ Participants will form teams, receive predefined problem statements, and engage 
 - **📍 Date:** 12th April 2025
 - **⏰ Time:** 9:00 AM onwards
 - **📌 Location:** To Be Announced
-- **🏆 Prize:** Winners get trophies and shields and cash prizes.
+- **🏆 Prize:** Winners get trophies and shields.
 
 ### ⏳ Schedule
 
@@ -42,10 +42,9 @@ Participants will form teams, receive predefined problem statements, and engage 
 ## 👥 Team & Participation
 
 - **Team Size:** 3 – 6 members
-- **Registration Fee:** ₹ 300 for 3 members  
-  ₹ 50 for each additional member
+- **Registration Fee:** ₹ 300 for 3 members ₹ 50 for each additional member
 - **Mode:** Offline
-- **Deadline:** Register before the event begins!
+- **Deadline:** Onspot registeration available.
 
 ## 📋 Rules & Regulations
 
